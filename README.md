@@ -1,5 +1,5 @@
 # SimpleQueryParserSpirit
-A simple query parser written in boost.spirit
+A simple query parser written in [Boost.Spirit](http://www.boost.org/doc/libs/release/libs/spirit)
 
 Introduction
 ============
@@ -32,4 +32,4 @@ This is a toy project. I tried three methods to build a query parser. You can fi
 After I completed these three projects, my conclusions about Flex/Bison vs Boost.Spirit are as follows:
 
  - There are many documentations about Flex/Bison, but few of them talk about thread-safty or generating a C++ parser.
- - Boost.Spirit is harder to learn. The documentation is poor. The code is hard to debug.
+ - Boost.Spirit is harder to learn. The documentation is poor. The code is hard to debug and takes much more time to compile.
